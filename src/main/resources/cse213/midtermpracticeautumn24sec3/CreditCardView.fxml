@@ -30,14 +30,14 @@
       <TextField fx:id="limitToFilterTextField" layoutX="204.0" layoutY="329.0" prefHeight="25.0" prefWidth="116.0" />
       <TableView fx:id="creditCardTableView" layoutX="32.0" layoutY="396.0" prefHeight="149.0" prefWidth="517.0">
         <columns>
-          <TableColumn fx:id="cardNoTableColumn" prefWidth="75.0" text="CardNo" />
-          <TableColumn fx:id="nameTableColumn" prefWidth="116.0" text="HolderName" />
-            <TableColumn fx:id="gatewayTableColumn" prefWidth="116.0" text="GateWay Name" />
-            <TableColumn fx:id="limitTableColumn" prefWidth="116.0" text="Credit Limit" />
+          <TableColumn fx:id="cardNoTableColumn" prefWidth="172.0" text="CardNo" />
+          <TableColumn fx:id="nameTableColumn" prefWidth="117.0" text="HolderName" />
+            <TableColumn fx:id="gatewayTableColumn" prefWidth="92.0" text="GateWay Name" />
+            <TableColumn fx:id="limitTableColumn" prefWidth="135.0" text="Credit Limit" />
         </columns>
       </TableView>
       <Button layoutX="383.0" layoutY="280.0" mnemonicParsing="false" onAction="#filterAnddLoadTableViewOnAction" prefHeight="60.0" prefWidth="174.0" text="Load Table with Filtered Data" textAlignment="CENTER" wrapText="true" />
       <Button layoutX="41.0" layoutY="585.0" mnemonicParsing="false" onAction="#showAvgLimitButtonOnAction" prefHeight="25.0" prefWidth="189.0" text="Show Avg Limit of loaded Cards" />
-      <Label fx:id="avgLimitLabel" layoutX="260.0" layoutY="589.0" prefHeight="17.0" prefWidth="277.0" style="-fx-background-color: aqua;" />
+      <Label fx:id="avgLimitLabel" layoutX="237.0" layoutY="589.0" prefHeight="17.0" prefWidth="309.0" style="-fx-background-color: aqua;" />
    </children>
 </AnchorPane>
