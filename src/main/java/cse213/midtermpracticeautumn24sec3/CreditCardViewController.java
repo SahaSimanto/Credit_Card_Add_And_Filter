@@ -4,7 +4,6 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class CreditCardViewController
@@ -112,8 +111,7 @@ public class CreditCardViewController
                 }
             }
         }
-        
-        //if(creditCardTableView.getItems().size()==0){
+
         if(creditCardTableView.getItems().isEmpty()){
             Alert a = new Alert(Alert.AlertType.INFORMATION);
             a.setContentText("Oops! No data found as per filter criteria");

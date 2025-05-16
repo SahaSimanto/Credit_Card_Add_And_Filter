@@ -16,8 +16,6 @@ public class MainApplicationClass extends Application {
         stage.setScene(scene);
         stage.show();
 
-        TestClass obj = new TestClass();
-        System.out.println(obj.toString());
     }
 
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
 package cse213.midtermpracticeautumn24sec3;
-import javafx.scene.control.Alert;
 
 import java.time.LocalDate;
 
@@ -78,18 +77,6 @@ public class CreditCard{
                 ", cardLimit=" + cardLimit +
                 ", dateOfExpiery=" + dateOfExpiery +
                 '}';
-    }
-
-
-
-    public void showCardInfoToAlert(){
-
-        //LocalDate dateOfApplication = LocalDate.now();
-
-        Alert a = new Alert(Alert.AlertType.INFORMATION);
-        a.setContentText(this.toString());
-        a.showAndWait();
-        //code to write
     }
 
 }
