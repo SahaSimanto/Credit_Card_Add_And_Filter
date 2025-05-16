@@ -58,7 +58,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>cse213.midtermpracticeautumn24sec3/cse213.midtermpracticeautumn24sec3.HelloApplication</mainClass>
+              <mainClass>cse213.midtermpracticeautumn24sec3/cse213.midtermpracticeautumn24sec3.MainApplicationClass</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
